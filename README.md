@@ -43,13 +43,17 @@ Customer priority uses project-defined historical-profit and order-count thresho
       ELSE 'Low Priority'
 
 
+
 Tools and Files
 
-
 SQL Server — data checks and analysis.
+
 Power BI Desktop — data model, measures, and report visuals.
+
 .sql — analysis queries.
+
 .pbix — interactive Power BI report.
+
 
 Limitations
 
