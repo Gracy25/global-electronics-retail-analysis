@@ -4,7 +4,11 @@ Global Electronics Retail Analysis
 
 A SQL Server and Power BI portfolio project analyzing sales performance, product categories, customer locations, delivery times, and inactive-customer win-back priorities.
 
-Business Questions
+## Report Preview
+
+[View the report (PDF)](Global-Electronics-Retail-Analysis.pdf)
+
+**Business Questions**
 
 Which product categories generate the most revenue, and where are customers located?
 
@@ -17,7 +21,7 @@ How does average order value compare between online and in-store orders?
 Which potentially inactive customers should be prioritized for a win-back campaign?
 
 
-Key Findings
+**Key Findings**
 
 Revenue peaked in 2019 and declined in 2020. 2021 contains January and February only, so it is not directly comparable with full years.
 
@@ -30,7 +34,7 @@ Average order value was approximately $2,138 in-store and $2,044 online. In-stor
 The win-back analysis identified 23 high-priority, 376 medium-priority, and 10,668 low-priority potentially inactive customers. Their combined historical profit was approximately $29.43 million.
 
 
-Method
+**Method**
 
 Revenue: quantity multiplied by unit price in USD.
 
@@ -49,7 +53,7 @@ Customer priority uses project-defined historical-profit and order-count thresho
 
 
 
-Tools and Files
+**Tools and Files**
 
 SQL Server — data checks and analysis.
 
@@ -60,7 +64,7 @@ Power BI Desktop — data model, measures, and report visuals.
 .pbix — interactive Power BI report.
 
 
-Limitations
+**Limitations**
 
 2021 data covers January–February only.
 
