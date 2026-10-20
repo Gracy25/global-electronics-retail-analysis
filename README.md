@@ -36,7 +36,9 @@ Online channel: identified by StoreKey 0, whose store record is labeled “Onlin
 Potentially inactive: more than 90 days since the customer’s last order, measured against the latest order date in the dataset.
 
 Customer priority uses project-defined historical-profit and order-count thresholds.
+
 'High Priority' = Total_Profit >= 20000 AND Number_of_order >=3 
+
 'Medium Priority' =  Total_Profit >= 10000
       ELSE 'Low Priority'
 
