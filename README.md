@@ -22,21 +22,23 @@ The win-back analysis identified 23 high-priority, 376 medium-priority, and 10,6
 
 Method
 Revenue: quantity multiplied by unit price in USD.
+
 Average order value: revenue divided by distinct order count.
+
 Online channel: identified by StoreKey 0, whose store record is labeled “Online”; other store keys represent in-store sales.
 
 Potentially inactive: more than 90 days since the customer’s last order, measured against the latest order date in the dataset.
 
 Customer priority uses project-defined historical-profit and order-count thresholds.
+'High Priority' = Total_Profit >= 20000 AND Number_of_order >=3 
+'Medium Priority' =  Total_Profit >= 10000
+      ELSE 'Low Priority'
+
 
 Tools and Files
-
 SQL Server — data checks and analysis.
-
 Power BI Desktop — data model, measures, and report visuals.
-
 .sql — analysis queries.
-
 .pbix — interactive Power BI report.
 
 Limitations
