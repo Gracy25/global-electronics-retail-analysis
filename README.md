@@ -5,6 +5,8 @@ Global Electronics Retail Analysis
 A SQL Server and Power BI portfolio project analyzing sales performance, product categories, customer locations, delivery times, and inactive-customer win-back priorities.
 
 Business Questions
+
+
 Which product categories generate the most revenue, and where are customers located?
 How do revenue and order volume change over time?
 What is the average delivery time, and how does it change by year?
@@ -13,6 +15,8 @@ Which potentially inactive customers should be prioritized for a win-back campai
 
 
 Key Findings
+
+
 Revenue peaked in 2019 and declined in 2020. 2021 contains January and February only, so it is not directly comparable with full years.
 Computers had the highest revenue among the product categories shown. The United States had the largest customer count by country.
 Average delivery time was approximately 4.52 days.
@@ -21,6 +25,8 @@ The win-back analysis identified 23 high-priority, 376 medium-priority, and 10,6
 
 
 Method
+
+
 Revenue: quantity multiplied by unit price in USD.
 
 Average order value: revenue divided by distinct order count.
@@ -36,6 +42,8 @@ Customer priority uses project-defined historical-profit and order-count thresho
 
 
 Tools and Files
+
+
 SQL Server — data checks and analysis.
 Power BI Desktop — data model, measures, and report visuals.
 .sql — analysis queries.
